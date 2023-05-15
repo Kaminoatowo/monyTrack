@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+</head>
+<body>
+    <h1>Expense Tracker</h1>
+
+    <div class="container">     
+        <div id="expense">
+            <!--
+                <div id="history">
+                    <canvas id="myChart" style="width:100%;max-width:700px"></canvas>
+                </div>
+                <div class="typeExpense">
+                    <input type="radio" id="plus" name="gain" value="+">
+                        <img src="img/Plus.png" width="50" height="40">
+                </div>
+                <div class="typeExpense">
+                    <input type="radio" id="minus" name="loss" value="-">
+                        <img src="img/Minus.png" width="50" height="40">
+                </div>-->
+
+                
+            <select name="sign" id="sign">
+                <option value="plus">+</option>
+                <option value="minus">-</option>
+            </select>
+            <input id="amount" type="number" placeholder="Add Expense" />
+            <input id="description" type="text" placeholder="..." />
+            <button id="push">Add</button>
+        </div>
+        <div id="expenses"></div>
+        <div id="total">
+            <p class="description">Total :</p>
+            <p class="amount" id="tot">[hold]</p>
+        </div>
+    </div>
+    
+
+    <script src="chart_main.js"></script>
+</body>
+</html>

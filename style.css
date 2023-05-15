@@ -1,0 +1,55 @@
+/* element rules */
+
+body{
+    height: 100vh;
+    background-color: beige;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/* class rules */
+
+.container{
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    background: white;
+    border-radius: 10px;
+    min-width: 450px;
+    position: absolute;
+    min-height: 100px;
+    transform: translate(-50%,-50%);
+}
+
+.expense{
+    vertical-align: middle;
+    margin: 0px;
+}
+
+.amount{
+    position: absolute;
+    right: 0px;
+}
+
+.description{
+    position: absolute;
+    left: 0px;
+}
+/* id rules */
+
+
+
+
+
+/* @media rules */
